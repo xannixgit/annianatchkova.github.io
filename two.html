@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover budget-friendly travel tips and destination guides across Europe. Perfect for students and budget-conscious travelers looking to explore Europe on a budget.">
+    <meta name="keywords" content="budget travel, European travel, student travel, affordable trips, travel tips, destination guides">
+    <meta name="author" content="Anni Anatchkova">
+    <title>Page Two | Student Travel Diaries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="one.html">Destinations</a> |
+        <a href="two.html">Travel Tips</a>
+    </nav>
+
+    <h1>Travel Tips for Budget Travelers</h1>
+
+    <section>
+        <h2>Finding Cheap Flights</h2>
+        <button onclick="toggleTips('flights-tips')">Read More</button>
+        <div id="flights-tips" style="display: none;">
+
+            <p>Flying doesn't have to break the bank! Here are a few tips to make sure you get the best deals on airfare:</p>
+            <ul>
+                <li>Use Skyscanner or Google Flights for price alerts</li>
+                <li>Be flexible with your travel dates-midweek and off-season  flights are usually cheaper.</li>
+                <li>Consider budget airlines, but double - check their baggage policies to avoid unexpected fees.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Packing Light</h2>
+        <button onclick="toggleTips('packing-tips')">Read More</button>
+        <div id="packing-tips" style="display: none;">
+            
+            <p>Mastering the art of packing light is essential for stress-free and budget-friendly travel:</p>
+            <ul>
+                <li>Stick to carry-on luggage for short trips - it saves money and time at the airport.</li>
+                <li>Invest in packing cubes to keep your belongings organized and maximize suitcase space.</li>
+                <li>Pack versatile clothing you can layer for different weather conditions.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Using Public Transport</h2>
+        <button onclick="toggleTips('transport-tips')">Read More</button>
+        <div id="transport-tips" style="display: none;">
+           
+            <p>Public transport is the lifeline of budget travel in Europe. Here’s how to make the most of it:</p>
+        <ul>
+            <li>Get multi-day transport passes for metro systems—they’re cheaper and convenient.</li>
+            <li>Research apps like Citymapper to navigate unfamiliar cities efficiently.</li>
+            <li>Always validate your tickets! Some countries, like Germany, have strict enforcement with hefty fines.</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="top-tips">
+        <h2>Top Travel Tips</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pkWKxfDa9NM?si=kcjgtvobrnNSJmag" 
+            title="Top 10 Travel Hacks to Save Money While Traveling" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <p>From packing smart to booking cheap accommodations, this video covers the best tips to save money while traveling. Perfect for budget explorers!</p>
+    </section>
+    
+
+    <script>
+        function toggleTips(id) {
+            const tips = document.getElementById(id);
+            tips.style.display = tips.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+
+</html>

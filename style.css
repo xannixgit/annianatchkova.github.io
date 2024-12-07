@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    background: linear-gradient(180deg, #f5d7b0,#f9f4e3);/* Amber gradient that fits with banner */
+    font-family:'Open Sans', sans-serif; /* Body text font */
+    color: #333333; /* Dark gray for text readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+/* Headers */
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+
+    /* NEW: Changed to match globe's blue tones */
+    color: #004E7C; /* Deep blue to reflect the globe in the banner */
+}
+
+h1 {
+    font-size: 42px; /* Kept large size for emphasis */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px; /* Slightly smaller for secondary importance */
+    margin-bottom: 10px;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 16px;
+    line-height: 1.5; /* Better readability */
+    margin: 10px 20px; /* Adds space around paragraphs */
+}
+
+/*Sections for consistent styling */
+
+section {
+    margin: 20px auto; /* Centered sections */
+    padding: 20px;
+    border: 1px solid #e6d5c3; 
+    border-radius: 8px; /* Rounded for softer look */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /*Slight shadow*/
+    background-color: #fff7e6;/* light beige to complement */ 
+}
+
+/*Subection headers for collapsible content*/
+h3 {
+    font-size: 20px;
+    color: #4CAF50;/* Green for subsections */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #004e7c; /* Blue background for the navigation bar */
+    color: #FFFFFF; /* White text color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF; /* White links */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Spacing between links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5d7b0; /* Accent on hover */
+}
+
+nav a.active {
+    background-color: #005fbb; /* Darker blue */
+    color: #FFFFFF; /* White text */
+    padding: 5px 10px; /* Some padding for emphasis */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Buttons */
+button {
+    background-color: #f5a623; /* contrast */
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /*Smooth color change */
+}
+
+button:hover {
+    background-color: #e68a00; /* Slightly darker on hover */
+}
+
+/* Collapsible Content Button Variants (NEW) */
+button.collapsible {
+    background-color: #007ACC; /* Blue background for collapsibles */
+    color: #FFFFFF; /* White text */
+    padding: 10px; /* Adjusted padding */
+}
+
+button.collapsible:hover {
+    background-color: #005FBB; /* Darker blue for hover effect */
+}
+
+
+/* Images */
+
+img {
+    border-radius: 8px; /* Smooth edges to match section design */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 100%; /* Ensures responsiveness */
+}
+
+table {
+    width: 100%; /* Make it stretch across the section */
+    border-collapse: collapse; /* Remove double borders */
+    margin: 20px 0; /* Add  spacing around */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light border around cells */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header-specific styles */
+th {
+    background-color: #007ACC;
+    color: white;
+    font-weight: bold;
+}
+
+/* Data cell-specific styles */
+td {
+    background-color: #f9f9f9; /* Light gray for table data */
+}
+
+footer {
+    background-color: #004E7C; /* Same deep blue as navigation bar */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4CAF50; /* Green for links */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    img {
+        width: 100%;
+    }
+}
+
