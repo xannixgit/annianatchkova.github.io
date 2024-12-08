@@ -163,20 +163,20 @@ td {
 }
 
 footer {
-    background-color: #004E7C; /* Same deep blue as navigation bar */
-    color: #FFFFFF !important; /* White text for contrast */
+    background-color: #004E7C !important; /* Enforce the background color */
+    color: #FFFFFF !important; /* Enforce white text */
     padding: 10px;
     text-align: center;
     font-size: 14px;
 }
 
-footer a {
-    color: #f5a623;
-    text-decoration: none; /* No underline */
+footer p, footer a {
+    color: #FFFFFF !important; /* Ensure all text and links are white */
+    text-decoration: none; /* Optional: remove underline */
 }
 
 footer a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; /* Optional hover effect */
 }
 
 /* New: Responsive embed container for maps and videos */
