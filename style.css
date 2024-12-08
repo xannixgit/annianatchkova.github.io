@@ -56,6 +56,20 @@ section {
 
 }
 
+ul {
+    list-style-type: disc; /* Default bullets */
+    list-style-position: inside; /* Aligns bullets with text */
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+ul li {
+    font-size: 16px; /* Slightly larger for better readability */
+    margin-bottom: 10px; /* Add spacing between list items */
+    line-height: 1.6; /* Adjust line spacing */
+}
+
+
 /*Subection headers for collapsible content*/
 h3 {
     font-size: 20px;
@@ -89,7 +103,7 @@ nav a.active {
 
 /* Buttons */
 button {
-    background-color: #f5a623; /* contrast */
+    background-color: #d87d1d; /* contrast */
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
     padding: 10px 15px;
@@ -101,7 +115,7 @@ button {
 }
 
 button:hover {
-    background-color: #e68a00; /* Slightly darker on hover */
+    background-color: #bf6d16; /* Slightly darker on hover */
 }
 
 /* Collapsible Content Button Variants (NEW) */
@@ -150,7 +164,7 @@ td {
 
 footer {
     background-color: #004E7C; /* Same deep blue as navigation bar */
-    color: #FFFFFF; /* White text for contrast */
+    color: #FFFFFF !important; /* White text for contrast */
     padding: 10px;
     text-align: center;
     font-size: 14px;
@@ -190,6 +204,7 @@ footer a:hover {
     }
     img {
         width: 100%;
+        margin-bottom: 15px;
     }
     .responsive-embed {
         padding-bottom: 75%; /* Optional: Adjust for taller ratio on smaller screens */
@@ -201,8 +216,9 @@ footer a:hover {
     }
     
     button {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 20px;
+        width: 80%;
     }
 }
 
