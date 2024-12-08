@@ -199,6 +199,11 @@ footer a:hover {
         max-width: 100%; /* Prevent iframe from exceeding screen width */
         height: auto; /* Maintain aspect ratio dynamically */
     }
+    
+    button {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width:768px) {
